@@ -48,10 +48,9 @@ const BarChart = () => {
                         data: mySeries                   
                     }
                 ]
+            });
         });
-            console.log(chartData);
-        });
-    }, [chartData]);
+    }, []);
     
     const options = {
         plotOptions: {
