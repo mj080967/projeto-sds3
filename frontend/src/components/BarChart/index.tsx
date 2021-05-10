@@ -51,7 +51,7 @@ const BarChart = () => {
         });
             console.log(chartData);
         });
-    }, []);
+    }, [chartData]);
     
     const options = {
         plotOptions: {
@@ -60,7 +60,6 @@ const BarChart = () => {
             }
         },
     };
-    
     /*const mockData = {   //Para testar com dados fixos
         labels: {
             categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
